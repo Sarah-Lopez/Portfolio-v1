@@ -1,26 +1,39 @@
 body {
     background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
-    
-    
 }
+
+.navbar-custom {
+    background-color: #413a53;
+}
+
+.navbar-nav {
+    color: white;
+}
+
 .img-fluid {
-    border-style: inset;
-    border-width: 6px;
-    border-color: brown;
-
-
+    box-shadow: 10px 10px 8px #e29577;
 }
 
 .container {
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
 .tab { 
     margin-left: 40px;
     text-indent:40px;    
 }
 
+p, h1 {
+    color: white;
+}
+
+
+/* .style {
+    animation-direction: alternate-reverse;
+    animation-duration: 0002;
+} */
 
