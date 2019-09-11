@@ -1,0 +1,26 @@
+body {
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.img-fluid {
+    border-style: inset;
+    border-width: 6px;
+    border-color: brown;
+
+
+}
+
+.container {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.tab { 
+    margin-left: 40px;
+    text-indent:40px;    
+}
+
+
