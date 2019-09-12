@@ -1,19 +1,35 @@
 body {
     background-image: url(images/sunset.jpg);
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
+/* Navbar */
 .navbar-custom {
     background-color: #413a53;
 }
 
-.navbar-nav {
-    color: white;
-}
+/* End Navbar */
 
 .img-fluid {
     box-shadow: 10px 10px 8px #e29577;
+    size: 360px, 300px;
+    max-width: 300px;
+    max-height: 360px;
+    margin: 0 auto;
+}
+
+.col-md-8 {
+    padding-top: 15px;
+    margin: 0 auto;
+
+}
+
+.row {
+    margin: 0 auto;
+    
 }
 
 .container {
@@ -21,19 +37,26 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+#portfoliocontainer {
+    align-content: center;
+}
 
+.description {
+
+    margin-left: 40px;
+}
+/* P tag indentation*/
 .tab { 
     margin-left: 40px;
     text-indent:40px;    
 }
 
+/* Text fonts/colors */
 p, h1 {
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-/* .style {
-    animation-direction: alternate-reverse;
-    animation-duration: 0002;
-} */
+
 
